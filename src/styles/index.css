@@ -9,3 +9,39 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+/* styles.css */
+
+/* styles.css */
+
+.top-banner {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.seconds-counter {
+    display: flex;
+    align-items: center;
+}
+
+.icon-and-digits {
+    display: flex;
+    align-items: center;
+}
+
+.clock-icon, .digit {
+    font-size: 48px; 
+    margin: 0 15px; 
+    
+}
+.clock-icon{
+    color:white;
+    margin-bottom: 5px;
+}
